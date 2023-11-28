@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		2EAB50952B161D6900AD1C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50942B161D6900AD1C02 /* AppDelegate.swift */; };
 		2EAB50972B161D6900AD1C02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50962B161D6900AD1C02 /* SceneDelegate.swift */; };
-		2EAB50992B161D6900AD1C02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50982B161D6900AD1C02 /* ViewController.swift */; };
-		2EAB509C2B161D6900AD1C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAB509A2B161D6900AD1C02 /* Main.storyboard */; };
 		2EAB509E2B161D6A00AD1C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAB509D2B161D6A00AD1C02 /* Assets.xcassets */; };
 		2EAB50A12B161D6A00AD1C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAB509F2B161D6A00AD1C02 /* LaunchScreen.storyboard */; };
+		2EAB50A92B161DA400AD1C02 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50A82B161DA400AD1C02 /* ExampleViewController.swift */; };
+		2EAB50AD2B161E4D00AD1C02 /* PreviewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50AC2B161E4D00AD1C02 /* PreviewExampleViewController.swift */; };
+		2EAB50B02B161E8A00AD1C02 /* PaletteMenusExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50AF2B161E8A00AD1C02 /* PaletteMenusExampleViewController.swift */; };
+		2EAB50B32B161E9B00AD1C02 /* LocaleImageExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50B22B161E9B00AD1C02 /* LocaleImageExampleViewController.swift */; };
+		2EAB50B62B161ED500AD1C02 /* LifeCycleExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50B52B161ED500AD1C02 /* LifeCycleExampleViewController.swift */; };
+		2EAB50B92B161EFA00AD1C02 /* TimerPageControlExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50B82B161EFA00AD1C02 /* TimerPageControlExampleViewController.swift */; };
+		2EAB50BC2B161F3F00AD1C02 /* ContentConfigurationExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50BB2B161F3F00AD1C02 /* ContentConfigurationExampleViewController.swift */; };
+		2EAB50BF2B161F6400AD1C02 /* DynamicLineHeightExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB50BE2B161F6400AD1C02 /* DynamicLineHeightExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EAB50912B161D6900AD1C02 /* uikit-presentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-presentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAB50942B161D6900AD1C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EAB50962B161D6900AD1C02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EAB50982B161D6900AD1C02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2EAB509B2B161D6900AD1C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EAB509D2B161D6A00AD1C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EAB50A02B161D6A00AD1C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EAB50A22B161D6A00AD1C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAB50A82B161DA400AD1C02 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		2EAB50AC2B161E4D00AD1C02 /* PreviewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewExampleViewController.swift; sourceTree = "<group>"; };
+		2EAB50AF2B161E8A00AD1C02 /* PaletteMenusExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteMenusExampleViewController.swift; sourceTree = "<group>"; };
+		2EAB50B22B161E9B00AD1C02 /* LocaleImageExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleImageExampleViewController.swift; sourceTree = "<group>"; };
+		2EAB50B52B161ED500AD1C02 /* LifeCycleExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleExampleViewController.swift; sourceTree = "<group>"; };
+		2EAB50B82B161EFA00AD1C02 /* TimerPageControlExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPageControlExampleViewController.swift; sourceTree = "<group>"; };
+		2EAB50BB2B161F3F00AD1C02 /* ContentConfigurationExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentConfigurationExampleViewController.swift; sourceTree = "<group>"; };
+		2EAB50BE2B161F6400AD1C02 /* DynamicLineHeightExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLineHeightExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,85 @@
 		2EAB50932B161D6900AD1C02 /* uikit-presentation */ = {
 			isa = PBXGroup;
 			children = (
+				2EAB50AA2B161E2800AD1C02 /* Examples */,
+				2EAB50A82B161DA400AD1C02 /* ExampleViewController.swift */,
 				2EAB50942B161D6900AD1C02 /* AppDelegate.swift */,
 				2EAB50962B161D6900AD1C02 /* SceneDelegate.swift */,
-				2EAB50982B161D6900AD1C02 /* ViewController.swift */,
-				2EAB509A2B161D6900AD1C02 /* Main.storyboard */,
 				2EAB509D2B161D6A00AD1C02 /* Assets.xcassets */,
 				2EAB509F2B161D6A00AD1C02 /* LaunchScreen.storyboard */,
 				2EAB50A22B161D6A00AD1C02 /* Info.plist */,
 			);
 			path = "uikit-presentation";
+			sourceTree = "<group>";
+		};
+		2EAB50AA2B161E2800AD1C02 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50AB2B161E3300AD1C02 /* Preview */,
+				2EAB50B42B161EC700AD1C02 /* Life Cycle */,
+				2EAB50BA2B161F3300AD1C02 /* Content Configuration */,
+				2EAB50B12B161E8E00AD1C02 /* Locale Image */,
+				2EAB50BD2B161F5800AD1C02 /* Dynamic Line Height */,
+				2EAB50B72B161EEC00AD1C02 /* Timer Page Control */,
+				2EAB50AE2B161E7500AD1C02 /* Color Palette Menus */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		2EAB50AB2B161E3300AD1C02 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50AC2B161E4D00AD1C02 /* PreviewExampleViewController.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		2EAB50AE2B161E7500AD1C02 /* Color Palette Menus */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50AF2B161E8A00AD1C02 /* PaletteMenusExampleViewController.swift */,
+			);
+			path = "Color Palette Menus";
+			sourceTree = "<group>";
+		};
+		2EAB50B12B161E8E00AD1C02 /* Locale Image */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50B22B161E9B00AD1C02 /* LocaleImageExampleViewController.swift */,
+			);
+			path = "Locale Image";
+			sourceTree = "<group>";
+		};
+		2EAB50B42B161EC700AD1C02 /* Life Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50B52B161ED500AD1C02 /* LifeCycleExampleViewController.swift */,
+			);
+			path = "Life Cycle";
+			sourceTree = "<group>";
+		};
+		2EAB50B72B161EEC00AD1C02 /* Timer Page Control */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50B82B161EFA00AD1C02 /* TimerPageControlExampleViewController.swift */,
+			);
+			path = "Timer Page Control";
+			sourceTree = "<group>";
+		};
+		2EAB50BA2B161F3300AD1C02 /* Content Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50BB2B161F3F00AD1C02 /* ContentConfigurationExampleViewController.swift */,
+			);
+			path = "Content Configuration";
+			sourceTree = "<group>";
+		};
+		2EAB50BD2B161F5800AD1C02 /* Dynamic Line Height */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB50BE2B161F6400AD1C02 /* DynamicLineHeightExampleViewController.swift */,
+			);
+			path = "Dynamic Line Height";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +209,6 @@
 			files = (
 				2EAB50A12B161D6A00AD1C02 /* LaunchScreen.storyboard in Resources */,
 				2EAB509E2B161D6A00AD1C02 /* Assets.xcassets in Resources */,
-				2EAB509C2B161D6900AD1C02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EAB50992B161D6900AD1C02 /* ViewController.swift in Sources */,
+				2EAB50B92B161EFA00AD1C02 /* TimerPageControlExampleViewController.swift in Sources */,
+				2EAB50B62B161ED500AD1C02 /* LifeCycleExampleViewController.swift in Sources */,
 				2EAB50952B161D6900AD1C02 /* AppDelegate.swift in Sources */,
+				2EAB50BC2B161F3F00AD1C02 /* ContentConfigurationExampleViewController.swift in Sources */,
+				2EAB50B32B161E9B00AD1C02 /* LocaleImageExampleViewController.swift in Sources */,
 				2EAB50972B161D6900AD1C02 /* SceneDelegate.swift in Sources */,
+				2EAB50AD2B161E4D00AD1C02 /* PreviewExampleViewController.swift in Sources */,
+				2EAB50A92B161DA400AD1C02 /* ExampleViewController.swift in Sources */,
+				2EAB50BF2B161F6400AD1C02 /* DynamicLineHeightExampleViewController.swift in Sources */,
+				2EAB50B02B161E8A00AD1C02 /* PaletteMenusExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2EAB509A2B161D6900AD1C02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EAB509B2B161D6900AD1C02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2EAB509F2B161D6A00AD1C02 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +376,7 @@
 				INFOPLIST_FILE = "uikit-presentation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +403,7 @@
 				INFOPLIST_FILE = "uikit-presentation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
