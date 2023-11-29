@@ -49,9 +49,15 @@ extension ContentConfigurationExampleViewController {
       config.secondaryText = "Your content will appear here"
       return config
     case 1:
-      return UIContentUnavailableConfiguration.loading()
+      var conf = UIContentUnavailableConfiguration.loading()
+      conf.text = "LOADING"
+      conf.secondaryText = "One seconds please :)"
+      return  conf
     case 2:
-      return UIContentUnavailableConfiguration.search()
+      var conf = UIContentUnavailableConfiguration.search()
+      conf.text = "SEARCH"
+      conf.secondaryText = "One seconds please :)"
+      return  conf
     default:
       return nil
     }

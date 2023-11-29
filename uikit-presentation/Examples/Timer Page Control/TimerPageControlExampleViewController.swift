@@ -11,11 +11,11 @@ final class TimerPageControlExampleViewController: UIViewController {
   
   let collectionViewData: [UIColor] = [
     .red,
-    .green,
-    .blue
+    .black,
+    .orange
   ]
   
-  let timerProgress = UIPageControlTimerProgress(preferredDuration: 5)
+  let timerProgress = UIPageControlTimerProgress(preferredDuration: 4)
   
   private lazy var pageControl: UIPageControl = {
     let pageControl = UIPageControl()
@@ -84,7 +84,6 @@ final class TimerPageControlExampleViewController: UIViewController {
   }
   
   @objc func pageChanged(_ sender: UIPageControl) {
-    // It seems like a bug since iOS 14, see https://stackoverflow.com/questions/41884645/uicollectionview-scroll-to-item-not-working-with-horizontal-direction for details
     collectionView.isPagingEnabled = false
     collectionView.scrollToItem(at: IndexPath(item: sender.currentPage, section: 0), at: .centeredHorizontally, animated: true)
     collectionView.isPagingEnabled = true

@@ -88,7 +88,7 @@
 				2EAB50B12B161E8E00AD1C02 /* Locale Image */,
 				2EAB50BD2B161F5800AD1C02 /* Dynamic Line Height */,
 				2EAB50B72B161EEC00AD1C02 /* Timer Page Control */,
-				2EAB50AE2B161E7500AD1C02 /* Color Palette Menus */,
+				2EAB50AE2B161E7500AD1C02 /* Palette Menus */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -101,12 +101,12 @@
 			path = Preview;
 			sourceTree = "<group>";
 		};
-		2EAB50AE2B161E7500AD1C02 /* Color Palette Menus */ = {
+		2EAB50AE2B161E7500AD1C02 /* Palette Menus */ = {
 			isa = PBXGroup;
 			children = (
 				2EAB50AF2B161E8A00AD1C02 /* PaletteMenusExampleViewController.swift */,
 			);
-			path = "Color Palette Menus";
+			path = "Palette Menus";
 			sourceTree = "<group>";
 		};
 		2EAB50B12B161E8E00AD1C02 /* Locale Image */ = {

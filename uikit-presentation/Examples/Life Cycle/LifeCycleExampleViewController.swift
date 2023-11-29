@@ -24,34 +24,22 @@ final class LifeCycleExampleViewController: UIViewController {
     printLifecycleName("viewDidLoad")
   }
   
-  override func viewIsAppearing(_ animated: Bool) {
-    super.viewIsAppearing(animated)
-    
-    printLifecycleName("viewIsAppearing")
-  }
-  
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     
     printLifecycleName("viewWillAppear")
   }
   
+  override func viewIsAppearing(_ animated: Bool) {
+    super.viewIsAppearing(animated)
+    
+    printLifecycleName("viewIsAppearing")
+  }
+  
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     
     printLifecycleName("viewDidAppear")
-  }
-  
-  override func viewWillDisappear(_ animated: Bool) {
-    super.viewWillDisappear(animated)
-    
-    printLifecycleName("viewWillDisappear")
-  }
-  
-  override func viewDidDisappear(_ animated: Bool) {
-    super.viewDidDisappear(animated)
-    
-    printLifecycleName("viewDidDisappear")
   }
   
   func printLifecycleName(_ name: String) {
