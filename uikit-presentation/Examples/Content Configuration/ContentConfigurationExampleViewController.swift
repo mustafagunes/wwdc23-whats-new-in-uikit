@@ -51,11 +51,13 @@ extension ContentConfigurationExampleViewController {
     case 1:
       var conf = UIContentUnavailableConfiguration.loading()
       conf.text = "LOADING"
+      conf.image = UIImage(systemName: "star.fill")
       conf.secondaryText = "One seconds please :)"
       return  conf
     case 2:
       var conf = UIContentUnavailableConfiguration.search()
       conf.text = "SEARCH"
+      conf.image = UIImage(systemName: "star.fill")
       conf.secondaryText = "One seconds please :)"
       return  conf
     default:
